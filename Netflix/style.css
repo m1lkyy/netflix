@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav {
+    background: black;
+    border-bottom: 5px solid #222;
+}
+
+.nav .bg-img {
+    width: 1862px;
+    opacity: 0.3;
+    display: inline;
+}
+
+.nav .netflix {
+    width: 225px;
+    height: 125px;
+    margin-left: 30px;
+    position: absolute;
+    top: 10px;
+}
+
+.nav .main-menu {
+    list-style: none;
+    position: absolute;
+    top: 45px;
+    right: 100px;
+}
+
+.nav .main-menu li {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nav .main-menu li a {
+    color: white;
+}
+
+.nav .main-menu .lang {
+    border: 1px solid #fff;
+    padding: 7px 17px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav .main-menu .login {
+    background: #e50914;
+    border-radius: 5px;
+    line-height: normal;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.nav .main-menu .login:hover {
+    opacity: .8;
+}
+
+.nav .hero {
+    position: absolute;
+    top: 22em;
+    color: white;
+    text-align: center;
+    margin-left: 33em;
+}
+
+.nav .hero h1 {
+    font-size: 85px;
+}
+
+.nav .hero h2 {
+    font-size: 1.75rem;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+.nav .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.nav .hero .email {
+    width: 600px;
+    height: 70px;
+}
+
+.nav .hero .email::placeholder {
+    padding: 5px;
+}
+
+.nav .hero .get-started {
+    width: 200px;
+    height: 76px!important;
+    padding-bottom: 5px;
+    background-color: #e50914;
+    border: 1px solid #e50914;
+    font-size: 25px;
+    color: white;
+}
+
+.nav .hero .get-started:hover {
+    opacity: 0.8;
+}
+
+.break {
+    border: 3px solid gray;
+}
+
+.main {
+    background-color: black;
+    color: white;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    height: 450px;
+    border-bottom: 5px solid #222;
+}
+
+.main h1 {
+    font-size: 60px;
+    margin-left: 5em;
+    margin-top: 100px;
+}
+
+.main p {
+    font-size: 30px;
+    margin-left: 10em;
+}
+
+
+.main .imageasset {
+    position: absolute;
+    left: 60em;
+    bottom: -40em;
+    z-index: 1;
+}
+
+.main .videoasset {
+    position: absolute;
+    bottom: -522px;
+    left: 1043px;
+    width: 470px;
+}
+
+#story-card {
+    margin-left: 10em;
+}
+
+.download {
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid #222;
+}
+
+.download .mobile {
+    background: black;
+    opacity: .5;
+}
+
+.download .story-img img {
+    width: 90px;
+    height: 125px;
+    position: absolute;
+    left: 23em;
+    top: 130em;
+}
+
+.download .textdiv {
+    margin-left: 15em;
+    position: absolute;
+    bottom: -60em;
+    font-size: 20px;
+}
+
+.download .textdiv .text2 {
+    color: #0071eb;
+}
+
+.download .loading {
+    position: relative;
+    left: 29.2em;
+    bottom: 6.2em;
+    width: 50px;
+    height: 50px;
+}
+
+.download h1 {
+    font-size: 50px;
+    float: right;
+    position: absolute;
+    bottom: -21em;
+    left: 17em;
+}
+
+.download p {
+    font-size: 30px;
+    float: right;
+    position: absolute;
+    bottom: -37.5em;
+    left: 28.3em;
+}
+
+.streaming {
+    background-color: black;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    color: white;
+    height: 620px;
+    border-bottom: 5px solid #222;
+}
+
+.streaming h1 {
+    font-size: 50px;
+    float: left;
+    margin-left: 7em;
+    margin-top: 4em;
+    position: absolute;
+}
+
+.streaming p {
+    font-size: 30px;
+    position: absolute;
+    bottom: -60em;
+    left: 12em;
+}
+
+.streaming .streaming-img-asset {
+    margin-left: 60em;
+    margin-top: 7em;
+    position: relative;
+    z-index: 2;
+}
+
+.streaming .streaming-video-asset {
+    margin-left: 55em;
+    position: relative;
+    top: -29.6em;
+    left: 12.6em;
+    width: 390px;
+    height: 300px;
+    bottom: -116em;
+}
+
+.kids {
+    background: black;
+    height: 400px;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    color: white;
+    border-bottom: 5px solid #222;
+}
+
+.kids .kids-img {
+    margin-left: 20em;
+    width: 450px;
+    height: 400px;
+}
+
+.kids h1 {
+    position: absolute;
+    right: 600px;
+    bottom: -49em;
+    font-size: 50px;
+}
+
+.kids p {
+    position: absolute;
+    font-size: 30px;
+    right: 440px;
+    bottom: -85.5em;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.footer a {
+    color: #757575;
+    font-size: 17px;
+    transition: 100ms;
+    display: block;
+    padding: 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .questions {
+    margin-left: 20rem;
+    font-size: 20px;
+}
+
+#firstcol {
+    margin-left: 20rem;
+    margin-top: 15px;
+}
+
+#secondcol {
+    margin-left: 40rem;
+    position: absolute;
+    bottom: -192.8em;
+}
+
+#thirdcol {
+    margin-left: 60rem;
+    position: absolute;
+    bottom: -192.8em;
+}
+
+#fourthcol {
+    margin-left: 80rem;
+    position: absolute;
+    bottom: -191em;
+}
+
+.footer p {
+    margin-left: 20rem;
+    position: absolute;
+    font-size: 17px;
+    top: 240em;
+    left: 5px;
+    color: #757575;
+}
